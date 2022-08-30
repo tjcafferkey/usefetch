@@ -1,0 +1,31 @@
+{
+  "name": "@tjcafferkey/usefetch",
+  "version": "1.0.0",
+  "description": "A super simple React hook for fetching and caching HTTP responses.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjcafferkey/usefetch.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjcafferkey/usefetch/issues"
+  },
+  "homepage": "https://github.com/tjcafferkey/usefetch#readme",
+  "author": "Tom Cafferkey",
+  "devDependencies": {
+    "typescript": "^4.8.2",
+    "react": "^18.2.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "fetch",
+    "api"
+  ]
+}
