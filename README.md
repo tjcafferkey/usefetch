@@ -17,7 +17,7 @@ import useFetch from 'usefetch';
 
 const { data, status } = useFetch( {
     url: 'https://some-domain/api/v1/some-endpoint',
-    shouldExecute: true // Optional: Defaults to true. 'true' | 'false'
+    shouldExecute: true // Optional: Defaults to true: true | false
 } );
 
 ```
