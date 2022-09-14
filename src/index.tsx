@@ -60,8 +60,8 @@ const useFetch = ( { url, config, shouldExecute } : Props ) : Response => {
             } else {
                 try {
                     const response = await http( options );
-                    cache.current[url] = response.data;
-                    dispatch( { type: 'SUCCESS', payload: response?.data } );
+                    cache.current[url] = response;
+                    dispatch( { type: 'SUCCESS', payload: response } );
                 } catch( err ) {
                     console.log( err );
                     dispatch( { type: 'ERROR', payload: [] } );
