@@ -11,7 +11,7 @@ npm install @tjcafferkey/usefetch
 ## Usage
 
 ```js
-import useFetch from 'usefetch';
+import useFetch from '@tjcafferkey/usefetch';
 
 const { data, status } = useFetch( {
     url: 'https://some-domain/api/v1/some-endpoint',
