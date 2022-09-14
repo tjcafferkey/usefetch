@@ -10,8 +10,6 @@ npm install @tjcafferkey/usefetch
 
 ## Usage
 
-Default request method used below is `GET`.
-
 ```js
 import useFetch from 'usefetch';
 
